@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mark Jones — aspiring backend developer and systems administrator.">
+    <title>Mark Jones | Backend & Systems</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="wordmark" href="#home" aria-label="Mark Jones home">mark-jones<span>.dev</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+        <nav id="primary-nav" aria-label="Primary navigation">
+          <a href="#home">Home</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Switch to light theme">Light mode</button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="home" class="hero" aria-labelledby="hero-title">
+        <img class="hero-art" src="assets/images/moonlit-wizard-study.webp" width="1600" height="533" alt="A moonlit wizard's study with glowing computer screens.">
+        <div class="hero-shade"></div>
+        <div class="container hero-content">
+          <p class="eyebrow">Backend · Linux · Infrastructure</p>
+          <h1 id="hero-title">Hello, I’m <span>Mark Jones.</span></h1>
+          <p class="hero-copy">An aspiring backend developer and systems administrator, learning by building practical software and tending a homelab.</p>
+          <a class="button" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+        </div>
+      </section>
+
+      <section id="projects" class="section container" aria-labelledby="projects-title">
+        <div class="section-heading"><p class="eyebrow">Selected work</p><h2 id="projects-title">Projects</h2></div>
+        <div class="project-grid">
+          <article class="project-card"><div class="project-number">01</div><h3>Asteroids Rebuild</h3><p>A rebuilding project focused on learning through a classic arcade game.</p><p class="status">Under construction — details and project link coming soon.</p></article>
+          <article class="project-card"><div class="project-number">02</div><h3>BookBot</h3><p>A programming project exploring automated text and book analysis.</p><p class="status">Under construction — planned rebuild in progress.</p></article>
+          <article class="project-card featured"><div class="project-number">03</div><h3><a class="project-link" href="homelab.html">Homelab <span aria-hidden="true">↗</span></a></h3><p>A personal learning environment for Linux, networking, self-hosting, and systems administration.</p><p class="status">High-level overview only — infrastructure details are kept private.</p></article>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="container about-grid">
+          <figure class="avatar-frame"><img src="assets/images/wizard-coder-avatar.webp" width="720" height="720" alt="Illustrated wizard programming at a keyboard."></figure>
+          <div><p class="eyebrow">About me</p><h2>Building the foundations behind the screen.</h2><p>I’m Mark, focused on growing into a backend developer and systems administrator. I’m drawn to the systems that make software dependable: Linux, automation, networking, and thoughtful infrastructure.</p><p>This site is a living record of what I’m learning and building. It will evolve as new projects are ready to share.</p></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section container contact" aria-labelledby="contact-title">
+        <p class="eyebrow">Get in touch</p><h2 id="contact-title">Let’s connect.</h2>
+        <p>I’m preparing ways to share my work and hear from collaborators. Contact details will be added here when ready.</p>
+      </section>
+    </main>
+
+    <footer><div class="container"><p>© <span id="year"></span> Mark Jones</p><p>Built with Codex. <a href="https://openai.com/codex/" target="_blank" rel="noopener noreferrer">Learn more here.</a></p></div></footer>
+  </body>
+</html>

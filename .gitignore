@@ -1,0 +1,5 @@
+# Packaged downloads are generated from the tracked source files.
+outputs/
+
+# macOS Finder metadata
+.DS_Store
